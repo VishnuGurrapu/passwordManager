@@ -1,0 +1,352 @@
+.appContainer {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  min-height: 100vh;
+  background-size: cover;
+}
+.bgContainer {
+  max-width: 1110px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 767px) {
+  .bgContainer {
+    gap: 18px;
+    padding: 20px;
+  }
+}
+.logoContainer {
+  height: 8vh;
+}
+.logo {
+  height: 100%;
+}
+.formBgContainer {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #5763a5;
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  .formBgContainer {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  }
+}
+.formContainer {
+  width: 50%;
+  padding: 15px;
+  background-color: #454f84;
+  border-radius: 15px;
+}
+@media (max-width: 767px) {
+  .formContainer {
+    width: 100%;
+    padding: 13px;
+    order: 2;
+  }
+}
+.formImgContainer {
+  width: 50%;
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .formImgContainer {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.formImg {
+  width: 90%;
+  height: auto;
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .heading {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.form {
+  padding: 0;
+  margin: 0;
+}
+.inputContainer {
+  display: flex;
+  width: 95%;
+  background-color: #f8fafc;
+  height: 50px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .inputContainer {
+    display: flex;
+    width: 100%;
+    background-color: #f8fafc;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+  }
+}
+.inputImgConatiner {
+  height: 100%;
+  background-color: transparent;
+  width: 55px;
+  padding: 10px;
+  border-right: 1px solid #9ba9eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputImg {
+  height: 80%;
+}
+.input {
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 15px;
+}
+.btn {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  color: #ffffff;
+  align-self: flex-end;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btnContainer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 95%;
+}
+
+@media (max-width: 767px) {
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+  }
+}
+
+.passwordBgContainer {
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #5763a5;
+}
+
+@media (max-width: 767px) {
+  .passwordBgContainer {
+    width: 100%;
+    padding: 13px;
+    border-radius: 12px;
+  }
+}
+.header {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #94a3b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftHeader {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+@media (max-width: 767px) {
+  .leftHeader {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+}
+.headerHeading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .headerHeading {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+.passwordCount {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+}
+@media (max-width: 767px) {
+  .passwordCount {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+  }
+}
+.inputContainer2 {
+  display: flex;
+  min-width: 25%;
+  background-color: #f8fafc;
+  height: 35px;
+}
+
+@media (max-width: 767px) {
+  .inputContainer2 {
+    display: flex;
+    min-width: 35%;
+    background-color: #f8fafc;
+    height: 25px;
+    width: 130px;
+  }
+}
+.inputImgConatiner2 {
+  background-color: transparent;
+  width: 35px;
+  padding: 10px;
+  border-right: 1px solid #9ba9eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .inputImgConatiner2 {
+    background-color: transparent;
+    width: 35px;
+
+    padding: 5px;
+    border-right: 1px solid #9ba9eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.inputImg2 {
+  height: 90%;
+}
+.input2 {
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  color: #94a3b8;
+}
+.showPasswordContainer {
+  display: flex;
+  justify-content: end;
+}
+.showPasswordContainer {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.checkbox {
+  font-size: 25px;
+  cursor: pointer;
+}
+.showpasswords {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+}
+.showpassword {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .showpasswords {
+    color: #ffffff;
+    font-size: 15px;
+  }
+}
+.list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.noPasswordContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .noPasswordContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.noPasswordImg {
+  width: 60%;
+}
+@media only screen and (max-width: 767px) {
+  .noPasswordImg {
+    width: 80%;
+  }
+}
